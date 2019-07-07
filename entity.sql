@@ -26,3 +26,5 @@ CREATE TABLE `goods` (
   PRIMARY KEY (`gid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 ALTER `goods` ADD `picture` varchar(64) NOT NULL DEFAULT '';
+
+INSERT INTO `goods` VaLUES ('1','糖','3.0','10');
